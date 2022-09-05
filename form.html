@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <main>
+
+
+        <div>
+            <h1 class="heading">Adding Employees to the Enrolled List</h1>
+            <div class="form" >
+                <form id="enroll" >
+                    <div class="form-body">
+                        <label class="form__label" for="name">
+                            Employee Name:
+                        </label>
+                        <input name="name" class="form_input" type="text" id="name" readonly ></input>
+                        <br />
+                        <label class="form__label" for="id">
+                            Employee ID:
+                        </label>
+                        <input name="id" type="text" class="form_input" id="id"readOnly></input>
+                        <br />
+                        <label class="form__label" for="training">
+                            Training Name:
+                        </label>
+                        <input name="training" type="text" id="training" class="form_input" placeholder="Enter training name"
+                            required></input>
+                        <br />
+                        <label class="form__label" for="email">
+                            Employee Email:
+                        </label>
+                        <input name="email" type="email" id = "email"class="form_input" placeholder="Enter email here" required></input>
+                        <br />
+                    </div>
+
+                    <button type="submit" class="footer">
+                        Enroll For Training
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="form.js"></script>
+</body>
+</html>
